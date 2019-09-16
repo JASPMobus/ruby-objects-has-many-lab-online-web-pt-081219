@@ -22,6 +22,10 @@ class Artist
   end 
   
   def self.song_count
+<<<<<<< HEAD
     Song.all.length 
+=======
+    @@all_songs.length 
+>>>>>>> ad8489c4786815cabdb1c51eb307657cf939390a
   end 
 end
